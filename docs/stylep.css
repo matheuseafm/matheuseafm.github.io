@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding-top: calc(1rem - 70px);
+}
+
+.cabeçalho{
+    display: flex;
+    font-weight: 200;
+    cursor: pointer;
+    gap: 7rem;
+}
+
+.cabeçalho a{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 630;
+    cursor: pointer;
+}
+
+.cabeçalho a:hover{
+    color: rgb(106, 6, 146);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.itens hr{
+	border-width: 0; 
+	height: 1px;
+	border-top-width: 2px;
+    border-color: black;
+}
+
+.itens h4{
+	color: rgb(71, 70, 70);
+}
+
+.listamateria{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 3rem;
+    color: black;
+}
+
+.descricao a{
+    color: black;
+}
+
+.materias{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.materias h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+
+.materias h3:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.texto-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.texto-bottom a{
+    color: black;
+}
+
+.texto-bottom a:hover{
+    color: rgb(106, 6, 146);
+}
